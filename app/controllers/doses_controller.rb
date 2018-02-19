@@ -15,11 +15,13 @@ class DosesController < ApplicationController
     else
       render :new
     end
-    #ajouter elsif render si fail
   end
 
   def destroy
-    @dose = Dose.destroy
+    @dose = Dose.find(params[:id])
+    @cocktail = dose.cocktail
+    @dose.destroy
+    redirect_to cocktail_path(cocktail)
   end
 
   private

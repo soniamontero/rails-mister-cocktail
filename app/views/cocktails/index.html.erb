@@ -1,13 +1,33 @@
-<h1>Cocktails</h1>
 <body>
+  <div class="navbar">
+  <!-- Logo -->
+  <a href="/" class="navbar-logo">
+    <img src="https://us.brugal-rum.com/wp-content/uploads/sites/4/2017/08/Extra-Viejo-Dark-Stormy-1280x1648.png" alt="logo">
+  </a>
 
-<ul><% @cocktails.each do |cocktail| %>
-  <li><%= cocktail.name %></li>
+  <!-- Right Navigation -->
+  <div class="navbar-right hidden-xs hidden-sm">
 
-  <li><%= link_to 'Show', cocktail_path(cocktail) %></li>
+    <a href="" class="navbar-item navbar-link"><%= link_to 'Add a Cocktail', new_cocktail_path %></a>
+    <input class="searchbar" type="text" placeholder="Search for Cocktails...">
+    <!-- Profile picture with dropdown list -->
+    </div>
+  </div>
 
-  <% end %>
-</ul>
+  <div class="container">
+    <h1 class="title">Cocktailicious</h1>
+    <div class="row">
+      <% @cocktails.each do |cocktail| %>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background: url('https://sheerluxe.com/sites/default/files/2015/06/limoncello-raspberry-prosecco-cooler.jpg');">
+            <div class="card-description">
+              <div class="text-bottom"> <%= link_to cocktail.name, cocktail_path(cocktail) %></div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
 
+</div>
 </body>
-<!-- DISPLAY DOSES !!! -->
