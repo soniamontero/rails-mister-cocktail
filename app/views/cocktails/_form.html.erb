@@ -1,0 +1,13 @@
+
+<%= simple_form_for(@cocktail) do |f| %>
+
+  <div class="form-inputs">
+    <%= f.input :name, label: 'Name of your cocktail' %>
+      <%= f.collection_check_boxes :dose_ids, Dose.all, :id, :description %>
+</div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
+
