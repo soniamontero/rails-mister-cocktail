@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+ruby '2.4.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
@@ -23,6 +24,7 @@ gem 'webpacker'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass' # Bootstrap v3
 gem 'font-awesome-sass'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
