@@ -24,6 +24,7 @@ gem 'webpacker'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass' # Bootstrap v3
 gem 'font-awesome-sass'
+gem 'figaro'
 
 
 # Use CoffeeScript for .coffee assets and views
