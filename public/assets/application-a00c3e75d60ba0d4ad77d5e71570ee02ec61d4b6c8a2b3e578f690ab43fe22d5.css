@@ -1,0 +1,479 @@
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  height: 300px;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+/* line 12, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner h1 {
+  font-size: 50px;
+  font-family: 'Quattrocento', serif;
+  font-weight: lighter;
+  text-shadow: 1px 0px 10px #ffd6bc;
+}
+
+/* line 19, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner h2 {
+  font-size: 30px;
+  font-family: 'Quattrocento', serif !important;
+  font-weight: lighter;
+  text-shadow: 1px 0px 10px #ffd6bc;
+}
+
+/* line 26, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+/* line 34, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.btn {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ff895e;
+  font-size: 17px;
+  background: #ffffff;
+  padding: 10px 33px 10px 33px;
+  border: solid #ffc1b2 1px;
+  text-decoration: none;
+}
+
+/* line 47, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.btn:hover {
+  background: #fff6f2;
+  text-decoration: none;
+}
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card {
+  height: 500px;
+  width: 200px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* line 10, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card:hover {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+/* line 16, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.title {
+  color: #FFD447;
+  padding: 25px;
+  margin: 11px;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 10px 0px 0px #F2F2ED;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+  font-color: white;
+}
+
+/* line 31, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card-description {
+  color: white;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  font-size: 35px;
+  bottom: 10px;
+  left: 10px;
+  font-weight: lighter;
+}
+/* line 39, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card-description a:link {
+  text-decoration: none;
+  color: white;
+}
+/* line 44, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card-description a:visited {
+  color: white;
+}
+
+/* line 50, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.text-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+}
+
+/* line 56, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.column-centered {
+  margin: auto;
+}
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content {
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px 10px 50px;
+  font-family: 'Quattrocento', serif;
+  font-weight: lighter;
+}
+/* line 9, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content p {
+  padding: 0px 0px 0px 20px;
+  font-size: 20px;
+}
+/* line 14, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content .list {
+  list-style: url("https://image.flaticon.com/icons/svg/741/741821.svg");
+}
+/* line 18, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content h2 {
+  padding: 8px 0px 0px 30px;
+  font-weight: bolder;
+}
+/* line 23, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content .small-link {
+  font-size: 15px;
+  padding: 5px 0px 0px 30px;
+  font-weight: bold;
+}
+/* line 27, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content .small-link a {
+  color: #ff895e;
+}
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card {
+  height: 500px;
+  width: 200px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* line 10, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card:hover {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+/* line 16, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.title {
+  color: #FFD447;
+  padding: 25px;
+  margin: 11px;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 10px 0px 0px #F2F2ED;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+  font-color: white;
+}
+
+/* line 31, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card-description {
+  color: white;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  font-size: 35px;
+  bottom: 10px;
+  left: 10px;
+  font-weight: lighter;
+}
+/* line 39, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card-description a:link {
+  text-decoration: none;
+  color: white;
+}
+/* line 44, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.card-description a:visited {
+  color: white;
+}
+
+/* line 50, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.text-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+}
+
+/* line 56, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_card.scss */
+.column-centered {
+  margin: auto;
+}
+
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content {
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px 10px 50px;
+  font-family: 'Quattrocento', serif;
+  font-weight: lighter;
+}
+/* line 9, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content p {
+  padding: 0px 0px 0px 20px;
+  font-size: 20px;
+}
+/* line 14, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content .list {
+  list-style: url("https://image.flaticon.com/icons/svg/741/741821.svg");
+}
+/* line 18, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content h2 {
+  padding: 8px 0px 0px 30px;
+  font-weight: bolder;
+}
+/* line 23, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content .small-link {
+  font-size: 15px;
+  padding: 5px 0px 0px 30px;
+  font-weight: bold;
+}
+/* line 27, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_content.scss */
+.content .small-link a {
+  color: #ff895e;
+}
+
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 0px -10px 0px;
+}
+
+/* Logo */
+/* line 14, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-logo img {
+  height: 90px;
+  width: 80px;
+}
+
+/* Right section */
+/* line 21, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Quattrocento', serif;
+}
+/* line 26, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right a:link {
+  font-size: 17px;
+  color: #FFD447;
+  text-decoration: none;
+  padding-right: 30px;
+}
+/* line 32, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right a:visited {
+  font-size: 17px;
+  color: #FFD447;
+  text-decoration: none;
+  padding-right: 30px;
+}
+/* line 38, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right a:hover {
+  font-size: 17px;
+  color: #f1b800;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+/* Basic navbar item */
+/* line 48, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+/* line 54, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-link {
+  color: #FFD447;
+  font-size: 17px;
+}
+
+/* line 58, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* line 63, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.searchbar {
+  border: 1px solid #ffe9d7;
+  padding: 5px 15px;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  height: 300px;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+/* line 12, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner h1 {
+  font-size: 50px;
+  font-family: 'Quattrocento', serif;
+  font-weight: lighter;
+  text-shadow: 1px 0px 10px #ffd6bc;
+}
+
+/* line 19, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner h2 {
+  font-size: 30px;
+  font-family: 'Quattrocento', serif !important;
+  font-weight: lighter;
+  text-shadow: 1px 0px 10px #ffd6bc;
+}
+
+/* line 26, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+/* line 34, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.btn {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ff895e;
+  font-size: 17px;
+  background: #ffffff;
+  padding: 10px 33px 10px 33px;
+  border: solid #ffc1b2 1px;
+  text-decoration: none;
+}
+
+/* line 47, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_banner.scss */
+.btn:hover {
+  background: #fff6f2;
+  text-decoration: none;
+}
+/* line 1, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 0px -10px 0px;
+}
+
+/* Logo */
+/* line 14, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-logo img {
+  height: 90px;
+  width: 80px;
+}
+
+/* Right section */
+/* line 21, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Quattrocento', serif;
+}
+/* line 26, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right a:link {
+  font-size: 17px;
+  color: #FFD447;
+  text-decoration: none;
+  padding-right: 30px;
+}
+/* line 32, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right a:visited {
+  font-size: 17px;
+  color: #FFD447;
+  text-decoration: none;
+  padding-right: 30px;
+}
+/* line 38, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-right a:hover {
+  font-size: 17px;
+  color: #f1b800;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+/* Basic navbar item */
+/* line 48, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+/* line 54, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-link {
+  color: #FFD447;
+  font-size: 17px;
+}
+
+/* line 58, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.navbar-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* line 63, /Users/Socks/code/soniamontero/rails-mister-cocktail/app/assets/stylesheets/components/_navbar.scss */
+.searchbar {
+  border: 1px solid #ffe9d7;
+  padding: 5px 15px;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
