@@ -5,7 +5,7 @@
       <% @cocktails.each do |cocktail| %>
         <%= link_to cocktail_path(cocktail) do %>
         <div class="col-xs-6 col-sm-4 col-md-3">
-          <div class="card" style="background: url('http://cdn.justalittlebitofbacon.com/wp-content/uploads/2016/11/pomegranate-prosecco-cocktail-3.jpg');">
+          <div class="card" style="background: url('<%= cl_image_path cocktail.photo, height: 300, width: 400, crop: :fill %>');">
             <div class="card-description">
               <div class="text-bottom">
                 <p class="column-centered">
